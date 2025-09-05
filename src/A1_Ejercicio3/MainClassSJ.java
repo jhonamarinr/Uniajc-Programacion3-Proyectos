@@ -8,11 +8,11 @@ package A1_Ejercicio3;
  *
  * @author Jhon
  */
-public class SJ_Main {
+public class MainClassSJ {
     
     public static void main(String[] args) {
         
-        SalaJuntas sala = new SalaJuntas(10);
+        ModelClassSalaJuntas sala = new ModelClassSalaJuntas(10);
         
         System.out.println("Estado actual de la Sala de Juntas: "+(sala.disponibilidad()?"Disponible":"Ocupada"));
         

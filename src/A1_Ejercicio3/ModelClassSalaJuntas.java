@@ -8,12 +8,12 @@ package A1_Ejercicio3;
  *
  * @author Jhon
  */
-public class SalaJuntas {
+public class ModelClassSalaJuntas {
     
     private int capacidad;
     private boolean disponible;
     
-    public SalaJuntas(int capacidad){  
+    public ModelClassSalaJuntas(int capacidad){  
         this.capacidad = capacidad;
         this.disponible = true;
     }
